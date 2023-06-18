@@ -805,7 +805,7 @@ ScriptsOnlyBuild:
     className: Benchmark03
   - hash:
       serializedVersion: 2
-      Hash: 12af86479466d461fd09803703de163d
+      Hash: 539ef01b6c06fe8c2ba57fb967f8a1f4
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: GPScor

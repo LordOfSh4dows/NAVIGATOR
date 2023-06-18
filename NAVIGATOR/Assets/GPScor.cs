@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.Android;
 using TMPro;
 
 public class GPScor : MonoBehaviour
@@ -9,7 +10,7 @@ public class GPScor : MonoBehaviour
     public TMP_Text GPSStatus;
     public TMP_Text Latitude;
     public TMP_Text Longitude;
-    public TMP_Text Altitude;
+    public TMP_Text AAltitude;
 
 
     void Start()
@@ -19,8 +20,19 @@ public class GPScor : MonoBehaviour
 
     IEnumerator GPSin()
     {
+
+        if (!Permission.HasUserAuthorizedPermission(Permission.FineLocation))
+        {
+            Permission.RequestUserPermission(Permission.FineLocation);
+            Permission.RequestUserPermission(Permission.CoarseLocation);
+        }
+
+        yield return new WaitForSeconds(5);
+
         if (!Input.location.isEnabledByUser)
+        {
             yield break;
+        }
 
         Input.location.Start();
         int Wait = 30;
@@ -43,18 +55,18 @@ public class GPScor : MonoBehaviour
         }
         else
         {
-            InvokeRepeating("UpdateGPS", 1f, 1f);
+            InvokeRepeating("UpdateGPS", 0.1f, 1f);
         }
     }
 
-    void UpdateGPS()
+     private void UpdateGPS()
     {
         if (Input.location.status == LocationServiceStatus.Running)
         {
             GPSStatus.text = "Обновление...";
             Latitude.text=Input.location.lastData.latitude.ToString();
             Longitude.text=Input.location.lastData.longitude.ToString();
-            Altitude.text=Input.location.lastData.altitude.ToString();
+            AAltitude.text=Input.location.lastData.altitude.ToString();
 
         }  
         else
