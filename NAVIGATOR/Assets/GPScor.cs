@@ -2,18 +2,19 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
-public class NewBehaviourScript : MonoBehaviour
+public class GPScor : MonoBehaviour
 {
-    public Text GPSStatus;
-    public Text Latitude;
-    public Text Longitude;
-    public Text altitude;
-    public Text Hacc;
-    public Text Time;
+    public TMP_Text GPSStatus;
+    public TMP_Text Latitude;
+    public TMP_Text Longitude;
+    public TMP_Text Altitude;
+
+
     void Start()
     {
-        
+        StartCoroutine(GPSin());
     }
 
     IEnumerator GPSin()
@@ -42,21 +43,18 @@ public class NewBehaviourScript : MonoBehaviour
         }
         else
         {
-            GPSStatus.text = "Выполнение...";
             InvokeRepeating("UpdateGPS", 1f, 1f);
         }
-        }
+    }
 
     void UpdateGPS()
     {
         if (Input.location.status == LocationServiceStatus.Running)
         {
-             GPSStatus.text = "Выполнение...";
+            GPSStatus.text = "Обновление...";
             Latitude.text=Input.location.lastData.latitude.ToString();
             Longitude.text=Input.location.lastData.longitude.ToString();
-            altitude.text=Input.location.lastData.altitude.ToString();
-            Hacc.text=Input.location.lastData.horizontalAccuracy.ToString();
-            Time.text =Input.location.lastData.timestamp.ToString();
+            Altitude.text=Input.location.lastData.altitude.ToString();
 
         }  
         else
