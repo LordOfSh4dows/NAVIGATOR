@@ -1,7 +1,12 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - CameraRotate
+    - CreateEnemy
     - GPScor
+    - GoURL
+    - Rayc
+    - StopSearch
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.TextMeshPro.dll:
@@ -18,8 +23,15 @@ ScriptsOnlyBuild:
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
     - UnityEngine.EventSystems.StandaloneInputModule
+    - UnityEngine.UI.Button
     - UnityEngine.UI.CanvasScaler
+    - UnityEngine.UI.ContentSizeFitter
     - UnityEngine.UI.GraphicRaycaster
+    - UnityEngine.UI.Image
+    - UnityEngine.UI.Mask
+    - UnityEngine.UI.ScrollRect
+    - UnityEngine.UI.Scrollbar
+    - UnityEngine.UI.VerticalLayoutGroup
   serializedClasses:
     Unity.TextMeshPro:
     - TMPro.FaceInfo_Legacy
@@ -37,15 +49,31 @@ ScriptsOnlyBuild:
     - TMPro.TMP_Style
     - TMPro.VertexGradient
     UnityEngine.CoreModule:
+    - UnityEngine.Events.ArgumentCache
     - UnityEngine.Events.PersistentCallGroup
+    - UnityEngine.Events.PersistentListenerMode
+    - UnityEngine.RectOffset
     UnityEngine.TextCoreFontEngineModule:
     - UnityEngine.TextCore.FaceInfo
     - UnityEngine.TextCore.Glyph
     - UnityEngine.TextCore.GlyphMetrics
     - UnityEngine.TextCore.GlyphRect
     UnityEngine.UI:
+    - UnityEngine.UI.AnimationTriggers
+    - UnityEngine.UI.Button/ButtonClickedEvent
+    - UnityEngine.UI.ColorBlock
     - UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
-  methodsToPreserve: []
+    - UnityEngine.UI.Navigation
+    - UnityEngine.UI.ScrollRect/ScrollRectEvent
+    - UnityEngine.UI.Scrollbar/ScrollEvent
+    - UnityEngine.UI.SpriteState
+  methodsToPreserve:
+  - assembly: Assembly-CSharp
+    fullTypeName: GoURL
+    methodName: GOin
+  - assembly: Assembly-CSharp
+    fullTypeName: StopSearch
+    methodName: Lemon
   sceneClasses:
     Assets/Scenes/SampleScene.unity:
     - Class: 1
@@ -56,11 +84,19 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 21
       Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
     - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
       Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
     - Class: 49
+      Script: {instanceID: 0}
+    - Class: 65
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
@@ -71,34 +107,62 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
+      Script: {instanceID: 16034}
+    - Class: 114
+      Script: {instanceID: 16078}
+    - Class: 114
       Script: {instanceID: 16652}
     - Class: 114
       Script: {instanceID: 17062}
     - Class: 114
       Script: {instanceID: 17262}
     - Class: 114
-      Script: {instanceID: 18414}
+      Script: {instanceID: 17274}
     - Class: 114
-      Script: {instanceID: 18520}
+      Script: {instanceID: 17544}
     - Class: 114
-      Script: {instanceID: 18768}
+      Script: {instanceID: 18298}
     - Class: 114
-      Script: {instanceID: 19456}
+      Script: {instanceID: 18416}
     - Class: 114
-      Script: {instanceID: 19994}
+      Script: {instanceID: 18522}
     - Class: 114
-      Script: {instanceID: 20142}
+      Script: {instanceID: 18770}
     - Class: 114
-      Script: {instanceID: 20408}
+      Script: {instanceID: 18998}
     - Class: 114
-      Script: {instanceID: 20454}
+      Script: {instanceID: 19460}
+    - Class: 114
+      Script: {instanceID: 19998}
+    - Class: 114
+      Script: {instanceID: 20066}
+    - Class: 114
+      Script: {instanceID: 20148}
+    - Class: 114
+      Script: {instanceID: 20414}
+    - Class: 114
+      Script: {instanceID: 20460}
+    - Class: 114
+      Script: {instanceID: 20468}
+    - Class: 114
+      Script: {instanceID: 20862}
+    - Class: 114
+      Script: {instanceID: 21062}
+    - Class: 114
+      Script: {instanceID: 21314}
+    - Class: 114
+      Script: {instanceID: 21496}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
       Script: {instanceID: 0}
+    - Class: 135
+      Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
       Script: {instanceID: 0}
     - Class: 222
       Script: {instanceID: 0}
@@ -293,6 +357,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: GraphicRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 685b5c51182eccf7620fa603386816aa
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CreateEnemy
   - hash:
       serializedVersion: 2
       Hash: f40fedccd4adbc76605bea6d67537e4b
@@ -607,6 +677,12 @@ ScriptsOnlyBuild:
     className: UnityOnPointerClickMessageListener
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: GoURL
+  - hash:
+      serializedVersion: 2
       Hash: b6514f552bd2ee9e736a5678aa7f7de3
     assemblyName: Assembly-CSharp.dll
     namespaceName: TMPro.Examples
@@ -775,6 +851,12 @@ ScriptsOnlyBuild:
     className: TextMeshSpawner
   - hash:
       serializedVersion: 2
+      Hash: 0205c1359ee04824239f5e54c4e7b504
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Rayc
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
@@ -805,7 +887,7 @@ ScriptsOnlyBuild:
     className: Benchmark03
   - hash:
       serializedVersion: 2
-      Hash: 539ef01b6c06fe8c2ba57fb967f8a1f4
+      Hash: a9f9a3fec1efb1f547a996f1925f76bc
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: GPScor
@@ -913,6 +995,12 @@ ScriptsOnlyBuild:
     className: PositionAsUV1
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CameraRotate
+  - hash:
+      serializedVersion: 2
       Hash: 87ff43d2baf3385cba327d8f803a4ebb
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
@@ -971,6 +1059,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: SignalTrack
+  - hash:
+      serializedVersion: 2
+      Hash: e65b131233ccd451120a6d8994c440d8
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: StopSearch
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f

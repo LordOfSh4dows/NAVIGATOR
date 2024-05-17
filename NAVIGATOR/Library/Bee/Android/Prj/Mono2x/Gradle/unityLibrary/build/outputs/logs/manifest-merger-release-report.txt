@@ -111,10 +111,10 @@ ADDED from B:\Prog\NAVIGATOR\NAVIGATOR\Library\Bee\Android\Prj\Mono2x\Gradle\uni
 		ADDED from B:\Prog\NAVIGATOR\NAVIGATOR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:64-88
 	android:name
 		ADDED from B:\Prog\NAVIGATOR\NAVIGATOR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:17-63
-uses-permission#android.permission.ACCESS_COARSE_LOCATION
-ADDED from B:\Prog\NAVIGATOR\NAVIGATOR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:3-79
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from B:\Prog\NAVIGATOR\NAVIGATOR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:3-77
 	android:name
-		ADDED from B:\Prog\NAVIGATOR\NAVIGATOR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:20-76
+		ADDED from B:\Prog\NAVIGATOR\NAVIGATOR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:20-74
 uses-feature#android.hardware.location.gps
 ADDED from B:\Prog\NAVIGATOR\NAVIGATOR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:22:3-89
 	android:required

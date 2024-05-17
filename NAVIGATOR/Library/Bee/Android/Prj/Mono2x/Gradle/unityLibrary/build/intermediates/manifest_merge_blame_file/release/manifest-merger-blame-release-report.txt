@@ -21,9 +21,9 @@
 15        android:required="false" />
 15-->B:\Prog\NAVIGATOR\NAVIGATOR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:64-88
 16
-17    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-17-->B:\Prog\NAVIGATOR\NAVIGATOR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:3-79
-17-->B:\Prog\NAVIGATOR\NAVIGATOR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:20-76
+17    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+17-->B:\Prog\NAVIGATOR\NAVIGATOR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:3-77
+17-->B:\Prog\NAVIGATOR\NAVIGATOR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:20-74
 18
 19    <uses-feature
 19-->B:\Prog\NAVIGATOR\NAVIGATOR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:22:3-89

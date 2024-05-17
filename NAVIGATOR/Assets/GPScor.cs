@@ -4,6 +4,8 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.Android;
 using TMPro;
+using System;
+
 
 public class GPScor : MonoBehaviour
 {
@@ -11,6 +13,7 @@ public class GPScor : MonoBehaviour
     public TMP_Text Latitude;
     public TMP_Text Longitude;
     public TMP_Text AAltitude;
+    public TMP_Text COMPAStude;
 
 
     void Start()
@@ -57,6 +60,7 @@ public class GPScor : MonoBehaviour
         {
             InvokeRepeating("UpdateGPS", 0.1f, 1f);
         }
+        Input.compass.enabled = true;
     }
 
      private void UpdateGPS()
@@ -67,6 +71,8 @@ public class GPScor : MonoBehaviour
             Latitude.text=Input.location.lastData.latitude.ToString();
             Longitude.text=Input.location.lastData.longitude.ToString();
             AAltitude.text=Input.location.lastData.altitude.ToString();
+            COMPAStude.text=Input.compass.magneticHeading.ToString();
+
 
         }  
         else
