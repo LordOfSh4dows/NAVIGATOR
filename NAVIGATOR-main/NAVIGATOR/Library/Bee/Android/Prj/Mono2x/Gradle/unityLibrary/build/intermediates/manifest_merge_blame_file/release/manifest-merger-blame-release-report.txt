@@ -1,0 +1,141 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:tools="http://schemas.android.com/tools"
+4    package="com.unity3d.player"
+5    android:versionCode="1"
+6    android:versionName="0.1" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="22"
+9-->B:\Prog\NAVIGATOR\NAVIGATOR-main\NAVIGATOR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml
+10        android:targetSdkVersion="30" />
+10-->B:\Prog\NAVIGATOR\NAVIGATOR-main\NAVIGATOR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml
+11
+12    <uses-feature android:glEsVersion="0x00030000" />
+12-->B:\Prog\NAVIGATOR\NAVIGATOR-main\NAVIGATOR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:19:3-52
+12-->B:\Prog\NAVIGATOR\NAVIGATOR-main\NAVIGATOR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:19:17-49
+13    <uses-feature
+13-->B:\Prog\NAVIGATOR\NAVIGATOR-main\NAVIGATOR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:3-91
+14        android:name="android.hardware.vulkan.version"
+14-->B:\Prog\NAVIGATOR\NAVIGATOR-main\NAVIGATOR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:17-63
+15        android:required="false" />
+15-->B:\Prog\NAVIGATOR\NAVIGATOR-main\NAVIGATOR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:64-88
+16
+17    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+17-->B:\Prog\NAVIGATOR\NAVIGATOR-main\NAVIGATOR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:3-77
+17-->B:\Prog\NAVIGATOR\NAVIGATOR-main\NAVIGATOR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:20-74
+18
+19    <uses-feature
+19-->B:\Prog\NAVIGATOR\NAVIGATOR-main\NAVIGATOR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:22:3-89
+20        android:name="android.hardware.location.gps"
+20-->B:\Prog\NAVIGATOR\NAVIGATOR-main\NAVIGATOR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:22:17-61
+21        android:required="false" />
+21-->B:\Prog\NAVIGATOR\NAVIGATOR-main\NAVIGATOR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:22:62-86
+22    <uses-feature
+22-->B:\Prog\NAVIGATOR\NAVIGATOR-main\NAVIGATOR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:23:3-85
+23        android:name="android.hardware.location"
+23-->B:\Prog\NAVIGATOR\NAVIGATOR-main\NAVIGATOR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:23:17-57
+24        android:required="false" />
+24-->B:\Prog\NAVIGATOR\NAVIGATOR-main\NAVIGATOR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:23:58-82
+25    <uses-feature
+25-->B:\Prog\NAVIGATOR\NAVIGATOR-main\NAVIGATOR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:24:3-88
+26        android:name="android.hardware.touchscreen"
+26-->B:\Prog\NAVIGATOR\NAVIGATOR-main\NAVIGATOR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:24:17-60
+27        android:required="false" />
+27-->B:\Prog\NAVIGATOR\NAVIGATOR-main\NAVIGATOR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:24:61-85
+28    <uses-feature
+28-->B:\Prog\NAVIGATOR\NAVIGATOR-main\NAVIGATOR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:25:3-99
+29        android:name="android.hardware.touchscreen.multitouch"
+29-->B:\Prog\NAVIGATOR\NAVIGATOR-main\NAVIGATOR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:25:17-71
+30        android:required="false" />
+30-->B:\Prog\NAVIGATOR\NAVIGATOR-main\NAVIGATOR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:25:72-96
+31    <uses-feature
+31-->B:\Prog\NAVIGATOR\NAVIGATOR-main\NAVIGATOR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:26:3-108
+32        android:name="android.hardware.touchscreen.multitouch.distinct"
+32-->B:\Prog\NAVIGATOR\NAVIGATOR-main\NAVIGATOR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:26:17-80
+33        android:required="false" />
+33-->B:\Prog\NAVIGATOR\NAVIGATOR-main\NAVIGATOR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:26:81-105
+34
+35    <application android:extractNativeLibs="true" >
+35-->B:\Prog\NAVIGATOR\NAVIGATOR-main\NAVIGATOR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:3-18:17
+35-->B:\Prog\NAVIGATOR\NAVIGATOR-main\NAVIGATOR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:16-48
+36        <activity
+36-->B:\Prog\NAVIGATOR\NAVIGATOR-main\NAVIGATOR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:5-11:16
+37            android:name="com.unity3d.player.UnityPlayerActivity"
+37-->B:\Prog\NAVIGATOR\NAVIGATOR-main\NAVIGATOR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:15-68
+38            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+38-->B:\Prog\NAVIGATOR\NAVIGATOR-main\NAVIGATOR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:180-361
+39            android:hardwareAccelerated="false"
+39-->B:\Prog\NAVIGATOR\NAVIGATOR-main\NAVIGATOR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:397-432
+40            android:launchMode="singleTask"
+40-->B:\Prog\NAVIGATOR\NAVIGATOR-main\NAVIGATOR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:148-179
+41            android:resizeableActivity="false"
+41-->B:\Prog\NAVIGATOR\NAVIGATOR-main\NAVIGATOR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:362-396
+42            android:screenOrientation="fullUser"
+42-->B:\Prog\NAVIGATOR\NAVIGATOR-main\NAVIGATOR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:111-147
+43            android:theme="@style/UnityThemeSelector" >
+43-->B:\Prog\NAVIGATOR\NAVIGATOR-main\NAVIGATOR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:69-110
+44            <intent-filter>
+44-->B:\Prog\NAVIGATOR\NAVIGATOR-main\NAVIGATOR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:5:7-8:23
+45                <action android:name="android.intent.action.MAIN" />
+45-->B:\Prog\NAVIGATOR\NAVIGATOR-main\NAVIGATOR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:6:9-61
+45-->B:\Prog\NAVIGATOR\NAVIGATOR-main\NAVIGATOR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:6:17-58
+46
+47                <category android:name="android.intent.category.LAUNCHER" />
+47-->B:\Prog\NAVIGATOR\NAVIGATOR-main\NAVIGATOR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:9-69
+47-->B:\Prog\NAVIGATOR\NAVIGATOR-main\NAVIGATOR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:19-66
+48            </intent-filter>
+49
+50            <meta-data
+50-->B:\Prog\NAVIGATOR\NAVIGATOR-main\NAVIGATOR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:7-82
+51                android:name="unityplayer.UnityActivity"
+51-->B:\Prog\NAVIGATOR\NAVIGATOR-main\NAVIGATOR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:18-58
+52                android:value="true" />
+52-->B:\Prog\NAVIGATOR\NAVIGATOR-main\NAVIGATOR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:59-79
+53            <meta-data
+53-->B:\Prog\NAVIGATOR\NAVIGATOR-main\NAVIGATOR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:7-78
+54                android:name="android.notch_support"
+54-->B:\Prog\NAVIGATOR\NAVIGATOR-main\NAVIGATOR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:18-54
+55                android:value="true" />
+55-->B:\Prog\NAVIGATOR\NAVIGATOR-main\NAVIGATOR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:55-75
+56        </activity>
+57
+58        <meta-data
+58-->B:\Prog\NAVIGATOR\NAVIGATOR-main\NAVIGATOR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:5-69
+59            android:name="unity.splash-mode"
+59-->B:\Prog\NAVIGATOR\NAVIGATOR-main\NAVIGATOR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:16-48
+60            android:value="0" />
+60-->B:\Prog\NAVIGATOR\NAVIGATOR-main\NAVIGATOR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:49-66
+61        <meta-data
+61-->B:\Prog\NAVIGATOR\NAVIGATOR-main\NAVIGATOR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:5-74
+62            android:name="unity.splash-enable"
+62-->B:\Prog\NAVIGATOR\NAVIGATOR-main\NAVIGATOR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:16-50
+63            android:value="True" />
+63-->B:\Prog\NAVIGATOR\NAVIGATOR-main\NAVIGATOR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:51-71
+64        <meta-data
+64-->B:\Prog\NAVIGATOR\NAVIGATOR-main\NAVIGATOR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:5-78
+65            android:name="unity.launch-fullscreen"
+65-->B:\Prog\NAVIGATOR\NAVIGATOR-main\NAVIGATOR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:16-54
+66            android:value="True" />
+66-->B:\Prog\NAVIGATOR\NAVIGATOR-main\NAVIGATOR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:55-75
+67        <meta-data
+67-->B:\Prog\NAVIGATOR\NAVIGATOR-main\NAVIGATOR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:5-84
+68            android:name="unity.allow-resizable-window"
+68-->B:\Prog\NAVIGATOR\NAVIGATOR-main\NAVIGATOR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:16-59
+69            android:value="False" />
+69-->B:\Prog\NAVIGATOR\NAVIGATOR-main\NAVIGATOR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:60-81
+70        <meta-data
+70-->B:\Prog\NAVIGATOR\NAVIGATOR-main\NAVIGATOR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:5-81
+71            android:name="notch.config"
+71-->B:\Prog\NAVIGATOR\NAVIGATOR-main\NAVIGATOR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:16-43
+72            android:value="portrait|landscape" />
+72-->B:\Prog\NAVIGATOR\NAVIGATOR-main\NAVIGATOR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:44-78
+73        <meta-data
+73-->B:\Prog\NAVIGATOR\NAVIGATOR-main\NAVIGATOR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:5-84
+74            android:name="unity.auto-report-fully-drawn"
+74-->B:\Prog\NAVIGATOR\NAVIGATOR-main\NAVIGATOR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:16-60
+75            android:value="true" />
+75-->B:\Prog\NAVIGATOR\NAVIGATOR-main\NAVIGATOR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:61-81
+76    </application>
+77
+78</manifest>
