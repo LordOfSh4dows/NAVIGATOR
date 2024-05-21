@@ -5,6 +5,9 @@ android.hardware.vulkan.version was added because:
 Location related settings were added because:
 	UnityEngine.Input::get_location was present in:
 		Assembly-CSharp-FeaturesChecked.txt
+android.permission.CAMERA, android.hardware.camera (Auto Focus, Front) were added because:
+	UnityEngine.WebCamTexture was present in:
+		Assembly-CSharp-FeaturesChecked.txt
 android.hardware.touchscreen.multitouch, android.hardware.touchscreen.multitouch.distinct were enabled because:
 	UnityEngine.Input::GetTouch was present in:
 		Assembly-CSharp-FeaturesChecked.txt

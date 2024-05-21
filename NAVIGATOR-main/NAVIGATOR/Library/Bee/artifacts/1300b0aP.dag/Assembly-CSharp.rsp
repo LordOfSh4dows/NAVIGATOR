@@ -301,6 +301,7 @@
 -r:"Library/Bee/artifacts/1300b0aP.dag/Unity.VisualScripting.State.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aP.dag/UnityEngine.UI.ref.dll"
 "Assets/CameraRotate.cs"
+"Assets/Camerimage.cs"
 "Assets/CreateEnemy.cs"
 "Assets/GoURL.cs"
 "Assets/GPScor.cs"

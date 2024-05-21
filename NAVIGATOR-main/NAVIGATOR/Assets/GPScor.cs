@@ -9,6 +9,7 @@ using System;
 
 public class GPScor : MonoBehaviour
 {
+
     public TMP_Text GPSStatus;
     public TMP_Text Latitude;
     public TMP_Text Longitude;
@@ -17,8 +18,15 @@ public class GPScor : MonoBehaviour
 
 
     void Start()
-    {
+    {   
         StartCoroutine(GPSin());
+        if (Permission.HasUserAuthorizedPermission(Permission.Camera))
+        {    
+        }
+        else
+        {
+            Permission.RequestUserPermission(Permission.Camera);
+        }
     }
 
     IEnumerator GPSin()

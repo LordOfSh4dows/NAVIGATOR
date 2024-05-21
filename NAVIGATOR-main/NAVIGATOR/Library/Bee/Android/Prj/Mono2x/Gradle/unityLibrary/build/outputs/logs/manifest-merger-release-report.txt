@@ -1,25 +1,25 @@
 -- Merging decision tree log ---
 manifest
-ADDED from B:\Prog\NAVIGATOR\NAVIGATOR-main\NAVIGATOR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:2:1-27:12
-INJECTED from B:\Prog\NAVIGATOR\NAVIGATOR-main\NAVIGATOR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:2:1-27:12
-INJECTED from B:\Prog\NAVIGATOR\NAVIGATOR-main\NAVIGATOR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:2:1-27:12
-INJECTED from B:\Prog\NAVIGATOR\NAVIGATOR-main\NAVIGATOR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:2:1-27:12
-INJECTED from B:\Prog\NAVIGATOR\NAVIGATOR-main\NAVIGATOR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:2:1-27:12
-INJECTED from B:\Prog\NAVIGATOR\NAVIGATOR-main\NAVIGATOR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:2:1-27:12
-INJECTED from B:\Prog\NAVIGATOR\NAVIGATOR-main\NAVIGATOR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:2:1-27:12
+ADDED from B:\Prog\NAVIGATOR\NAVIGATOR-main\NAVIGATOR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:2:1-31:12
+INJECTED from B:\Prog\NAVIGATOR\NAVIGATOR-main\NAVIGATOR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:2:1-31:12
+INJECTED from B:\Prog\NAVIGATOR\NAVIGATOR-main\NAVIGATOR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:2:1-31:12
+INJECTED from B:\Prog\NAVIGATOR\NAVIGATOR-main\NAVIGATOR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:2:1-31:12
+INJECTED from B:\Prog\NAVIGATOR\NAVIGATOR-main\NAVIGATOR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:2:1-31:12
+INJECTED from B:\Prog\NAVIGATOR\NAVIGATOR-main\NAVIGATOR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:2:1-31:12
+INJECTED from B:\Prog\NAVIGATOR\NAVIGATOR-main\NAVIGATOR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:2:1-31:12
 	package
 		ADDED from B:\Prog\NAVIGATOR\NAVIGATOR-main\NAVIGATOR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:2:70-98
 		INJECTED from B:\Prog\NAVIGATOR\NAVIGATOR-main\NAVIGATOR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml
 		INJECTED from B:\Prog\NAVIGATOR\NAVIGATOR-main\NAVIGATOR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from B:\Prog\NAVIGATOR\NAVIGATOR-main\NAVIGATOR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml
-		ADDED from B:\Prog\NAVIGATOR\NAVIGATOR-main\NAVIGATOR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:2:1-27:12
+		ADDED from B:\Prog\NAVIGATOR\NAVIGATOR-main\NAVIGATOR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:2:1-31:12
 		INJECTED from B:\Prog\NAVIGATOR\NAVIGATOR-main\NAVIGATOR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml
 	xmlns:tools
 		ADDED from B:\Prog\NAVIGATOR\NAVIGATOR-main\NAVIGATOR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:2:99-145
 	android:versionCode
 		INJECTED from B:\Prog\NAVIGATOR\NAVIGATOR-main\NAVIGATOR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml
-		ADDED from B:\Prog\NAVIGATOR\NAVIGATOR-main\NAVIGATOR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:2:1-27:12
+		ADDED from B:\Prog\NAVIGATOR\NAVIGATOR-main\NAVIGATOR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:2:1-31:12
 		INJECTED from B:\Prog\NAVIGATOR\NAVIGATOR-main\NAVIGATOR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from B:\Prog\NAVIGATOR\NAVIGATOR-main\NAVIGATOR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:2:11-69
@@ -127,24 +127,46 @@ ADDED from B:\Prog\NAVIGATOR\NAVIGATOR-main\NAVIGATOR\Library\Bee\Android\Prj\Mo
 		ADDED from B:\Prog\NAVIGATOR\NAVIGATOR-main\NAVIGATOR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:23:58-82
 	android:name
 		ADDED from B:\Prog\NAVIGATOR\NAVIGATOR-main\NAVIGATOR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:23:17-57
+uses-permission#android.permission.CAMERA
+ADDED from B:\Prog\NAVIGATOR\NAVIGATOR-main\NAVIGATOR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:24:3-63
+	android:name
+		ADDED from B:\Prog\NAVIGATOR\NAVIGATOR-main\NAVIGATOR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:24:20-60
+uses-feature#android.hardware.camera
+ADDED from B:\Prog\NAVIGATOR\NAVIGATOR-main\NAVIGATOR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:25:3-83
+	android:required
+		ADDED from B:\Prog\NAVIGATOR\NAVIGATOR-main\NAVIGATOR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:25:56-80
+	android:name
+		ADDED from B:\Prog\NAVIGATOR\NAVIGATOR-main\NAVIGATOR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:25:17-55
+uses-feature#android.hardware.camera.autofocus
+ADDED from B:\Prog\NAVIGATOR\NAVIGATOR-main\NAVIGATOR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:26:3-93
+	android:required
+		ADDED from B:\Prog\NAVIGATOR\NAVIGATOR-main\NAVIGATOR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:26:66-90
+	android:name
+		ADDED from B:\Prog\NAVIGATOR\NAVIGATOR-main\NAVIGATOR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:26:17-65
+uses-feature#android.hardware.camera.front
+ADDED from B:\Prog\NAVIGATOR\NAVIGATOR-main\NAVIGATOR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:27:3-89
+	android:required
+		ADDED from B:\Prog\NAVIGATOR\NAVIGATOR-main\NAVIGATOR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:27:62-86
+	android:name
+		ADDED from B:\Prog\NAVIGATOR\NAVIGATOR-main\NAVIGATOR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:27:17-61
 uses-feature#android.hardware.touchscreen
-ADDED from B:\Prog\NAVIGATOR\NAVIGATOR-main\NAVIGATOR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:24:3-88
+ADDED from B:\Prog\NAVIGATOR\NAVIGATOR-main\NAVIGATOR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:28:3-88
 	android:required
-		ADDED from B:\Prog\NAVIGATOR\NAVIGATOR-main\NAVIGATOR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:24:61-85
+		ADDED from B:\Prog\NAVIGATOR\NAVIGATOR-main\NAVIGATOR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:28:61-85
 	android:name
-		ADDED from B:\Prog\NAVIGATOR\NAVIGATOR-main\NAVIGATOR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:24:17-60
+		ADDED from B:\Prog\NAVIGATOR\NAVIGATOR-main\NAVIGATOR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:28:17-60
 uses-feature#android.hardware.touchscreen.multitouch
-ADDED from B:\Prog\NAVIGATOR\NAVIGATOR-main\NAVIGATOR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:25:3-99
+ADDED from B:\Prog\NAVIGATOR\NAVIGATOR-main\NAVIGATOR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:29:3-99
 	android:required
-		ADDED from B:\Prog\NAVIGATOR\NAVIGATOR-main\NAVIGATOR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:25:72-96
+		ADDED from B:\Prog\NAVIGATOR\NAVIGATOR-main\NAVIGATOR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:29:72-96
 	android:name
-		ADDED from B:\Prog\NAVIGATOR\NAVIGATOR-main\NAVIGATOR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:25:17-71
+		ADDED from B:\Prog\NAVIGATOR\NAVIGATOR-main\NAVIGATOR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:29:17-71
 uses-feature#android.hardware.touchscreen.multitouch.distinct
-ADDED from B:\Prog\NAVIGATOR\NAVIGATOR-main\NAVIGATOR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:26:3-108
+ADDED from B:\Prog\NAVIGATOR\NAVIGATOR-main\NAVIGATOR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:30:3-108
 	android:required
-		ADDED from B:\Prog\NAVIGATOR\NAVIGATOR-main\NAVIGATOR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:26:81-105
+		ADDED from B:\Prog\NAVIGATOR\NAVIGATOR-main\NAVIGATOR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:30:81-105
 	android:name
-		ADDED from B:\Prog\NAVIGATOR\NAVIGATOR-main\NAVIGATOR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:26:17-80
+		ADDED from B:\Prog\NAVIGATOR\NAVIGATOR-main\NAVIGATOR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:30:17-80
 uses-sdk
 INJECTED from B:\Prog\NAVIGATOR\NAVIGATOR-main\NAVIGATOR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from B:\Prog\NAVIGATOR\NAVIGATOR-main\NAVIGATOR\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml
